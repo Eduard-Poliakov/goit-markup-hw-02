@@ -1,0 +1,128 @@
+:root {
+    --text-color: #212121;
+    --logo-color: #000000;
+    --accent-color: #2196F3;
+    --grey: #757575;
+    --white: #FFFFFF;
+    --background-footer:#2F303A;
+    --background-section-white:#F5F5F5;
+    --background-section-grey: #F5F4FA;
+}
+
+/* Загальні стилі */
+
+body a {
+text-decoration: none;
+color: var(--text-color)
+}
+
+body ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto','sans-serif';
+}
+
+ /* Лого */
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-header{
+    color:var(--logo-color);
+}
+
+/* Навігація */
+
+
+.navigation:focus, .navigation:hover {
+    color: var(--accent-color);
+}
+
+.active{
+    color: var(--accent-color);
+}
+
+/* Контакты в шапці */
+
+.contact{
+    color: var(--grey);
+}
+
+.contact:hover, .contact:focus{
+    color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero{
+background-color: var(--background-footer);
+}
+
+.hero>h1{
+    color: var(--white);
+}
+
+/* Кнопка */
+
+.button{
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+/* Переваги */
+
+
+.pros p{
+    color: var(--grey);
+}
+
+/* Чим ми займаємося */
+
+
+
+/* Команда */
+
+.team p{
+    color: var(--grey);
+}
+
+/* Підвал */
+
+.basement{
+background-color: var(--background-footer);
+}
+
+.logo-footer{
+    color: var(--white);
+}
+
+.map{
+    color: var(--white);
+    font-style: normal
+}
+
+.map:hover, map:focus{
+color: var(--accent-color);
+}
+
+.basement-contact{
+color: rgba(255, 255, 255, 0.6);
+font-style: normal
+}
+
+.basement-contact:focus, .basement-contact:hover{
+    color: var(--accent-color);
+}
+
+/* Портфоліо */
+
+.projects p{
+color: var(--grey);
+}
