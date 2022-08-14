@@ -6,7 +6,7 @@
     --white: #FFFFFF;
     --background-footer:#2F303A;
     --background-section-white:#F5F5F5;
-    --background-section-grey: #F5F4FA;
+    --background-grey: #F5F4FA;
 }
 
 /* Загальні стилі */
@@ -22,15 +22,14 @@ body ul {
 
 body {
     font-family: 'Roboto','sans-serif';
+    letter-spacing: 0.03em;
 }
 
  /* Лого */
 .logo{
-    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
@@ -40,8 +39,13 @@ body {
 
 /* Навігація */
 
-
-.navigation:focus, .navigation:hover {
+.navigation{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.navigation-link:focus, .navigation-link:hover {
     color: var(--accent-color);
 }
 
@@ -65,8 +69,13 @@ body {
 background-color: var(--background-footer);
 }
 
-.hero>h1{
+.hero-header{
     color: var(--white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 /* Кнопка */
@@ -74,29 +83,65 @@ background-color: var(--background-footer);
 .button{
     color: var(--white);
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
 }
 
 /* Переваги */
 
+.pros-header{
+    font-size:0px;
+}
+
+.pros h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
 
 .pros p{
     color: var(--grey);
+    font-size: 14px;
+    line-height: 24px;
 }
 
 /* Чим ми займаємося */
 
-
+.areas-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
 
 /* Команда */
 
-.team p{
+.team-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.position-held{
     color: var(--grey);
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 /* Підвал */
 
 .basement{
 background-color: var(--background-footer);
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .logo-footer{
@@ -124,5 +169,34 @@ font-style: normal
 /* Портфоліо */
 
 .projects p{
-color: var(--grey);
+    color: var(--grey);
+    font-size: 16px;
+    line-height: 30px;
 }
+
+.projects h1{
+    font-size: 0px;
+}
+
+.projects h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.projects-button{
+    background-color: var(--background-grey);
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.projects-button:hover, .projects-button:focus{
+    background-color: var(--accent-color);
+    color: var(--white);
+}
+
+
+
