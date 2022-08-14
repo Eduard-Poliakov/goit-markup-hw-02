@@ -42,7 +42,7 @@ body {
 .navigation{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .navigation-link:focus, .navigation-link:hover {
@@ -73,9 +73,10 @@ background-color: var(--background-footer);
     color: var(--white);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-transform: uppercase;
     letter-spacing: 0.06em;
+    text-align: center;
 }
 
 /* Кнопка */
@@ -85,7 +86,7 @@ background-color: var(--background-footer);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
 }
 
@@ -98,14 +99,14 @@ background-color: var(--background-footer);
 .pros h3{
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 
 .pros p{
     color: var(--grey);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 }
 
 /* Чим ми займаємося */
@@ -113,7 +114,8 @@ background-color: var(--background-footer);
 .areas-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Команда */
@@ -121,7 +123,8 @@ background-color: var(--background-footer);
 .team-header{
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .position-held{
@@ -133,7 +136,7 @@ background-color: var(--background-footer);
 .name{
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 }
 
 /* Підвал */
@@ -141,7 +144,7 @@ background-color: var(--background-footer);
 .basement{
 background-color: var(--background-footer);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
 }
 
 .logo-footer{
@@ -181,7 +184,7 @@ font-style: normal
 .projects h2 {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 1.87;
     letter-spacing: 0.06em;
 }
 
@@ -190,7 +193,8 @@ font-style: normal
     color: var(--text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
+    font-family: inherit;
 }
 
 .projects-button:hover, .projects-button:focus{
