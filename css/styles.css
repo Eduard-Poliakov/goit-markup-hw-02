@@ -30,7 +30,7 @@ body {
 .logo{
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var(--accent-color);
     font-family: 'Raleway';
 }
@@ -41,7 +41,8 @@ body {
 
 /* Навігація */
 
-.hat {font-weight: 500;
+.hat{
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -83,7 +84,7 @@ background-color: var(--background-footer);
 
 /* Кнопка */
 
-.button{
+.hero-button{
     color: var(--white);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -93,10 +94,23 @@ background-color: var(--background-footer);
     cursor: pointer;
 }
 
+.hero-button:hover, .hero-button:focus{
+    background-color: #188CE8;
+}
+
 /* Переваги */
 
-.pros-header{
-    font-size:0px;
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .pros h3{
@@ -133,7 +147,7 @@ background-color: var(--background-footer);
 .position-held{
     color: var(--grey);
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
 }
 
 .name{
@@ -177,11 +191,7 @@ font-style: normal
 .projects p{
     color: var(--grey);
     font-size: 16px;
-    line-height: 30px;
-}
-
-.projects h1{
-    font-size: 0px;
+    line-height: 1.9;
 }
 
 .projects h2 {
