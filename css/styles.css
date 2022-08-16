@@ -23,6 +23,7 @@ body ul {
 body {
     font-family: 'Roboto','sans-serif';
     letter-spacing: 0.03em;
+    color: var(--text-color);
 }
 
  /* Лого */
@@ -31,6 +32,7 @@ body {
     font-size: 26px;
     line-height: 31px;
     color: var(--accent-color);
+    font-family: 'Raleway';
 }
 
 .logo-header{
@@ -39,12 +41,12 @@ body {
 
 /* Навігація */
 
-.navigation{
-    font-weight: 500;
+.hat{font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
 .navigation-link:focus, .navigation-link:hover {
     color: var(--accent-color);
 }
@@ -157,7 +159,7 @@ background-color: var(--background-footer);
     font-style: normal
 }
 
-.map:hover, map:focus{
+.map:hover, .map:focus{
 color: var(--accent-color);
 }
 
